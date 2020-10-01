@@ -5,14 +5,22 @@
     alert ('MESSAGE');
 });*/
 
-const myButton = document.getElementById('bouton-bleu');
-if(myButton != null) {
-myButton.addEventListener('click', function() {
-    const table = document.querySelector('table');
-    table.style.display = 'none';
- //   alert('test');
-});
-}
+/*const myButton = document.getElementById('bouton-bleu');
+       if(myButton != null) {
+        myButton.addEventListener('click', function() {
+            const table = document.querySelector('table');
+            table.style.display = 'none';
+        //   alert('test');
+        });
+        }*/
+
+       /* $('#bouton-bleu').on('click', function(){
+        $('table').find('tr').last().remove();
+
+        });*/
+
+        
+
 
 //document.getElementsByClassName('btn');
 
